@@ -113,18 +113,6 @@ Tools. Model inference uses a generated blank image by default. To check photos
 stored outside the repository, pass their paths to
 `bash app/tools/run_posture_model_check.sh /path/to/photo.jpg`.
 
-## GitHub
-
-Upload this folder's contents, including `.gitignore`, `.gitattributes`, and
-`.python-version`. The supplied source contains no personal photos, coursework,
-presentation files, local environments, build output, or development history.
-The checkpoint contains inference weights and public model metadata.
-
-The ignore rules exclude local data, credentials, environments, and generated
-files. Keep any photos you import for testing outside the repository.
-
-Third-party notices are preserved in [licenses](licenses/README.md).
-
 ## Citation
 
 If you use LearnWell in your work, please cite the software using the metadata in
