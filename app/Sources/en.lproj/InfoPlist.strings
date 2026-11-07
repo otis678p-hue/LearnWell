@@ -1,0 +1,2 @@
+/* macOS permission prompts */
+"NSCameraUsageDescription" = "LearnWell uses the camera on this Mac to check your sitting posture and to show a preview in the notch panel. Video is never saved or uploaded.";

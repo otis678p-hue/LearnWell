@@ -1,0 +1,17 @@
+cff-version: "1.2.0"
+message: "If you use LearnWell in your work, please cite this software using the metadata below."
+type: software
+title: "LearnWell"
+authors:
+  - name: "LearnWell contributors"
+version: "26.10.10.0935"
+abstract: >-
+  LearnWell is a macOS application for comfortable study habits, combining
+  camera-based posture awareness, study and break reminders, activity history,
+  and optional Arduino environment monitoring.
+keywords:
+  - posture detection
+  - study habits
+  - macOS
+  - Swift
+  - Arduino

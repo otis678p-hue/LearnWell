@@ -1,0 +1,9 @@
+# Core versions captured from the working app development environment.
+torch==2.4.1
+torchvision==0.19.1
+numpy==1.26.4
+opencv-python==4.11.0.86
+ultralytics==8.4.189
+coremltools==9.0
+PyYAML==6.0.3
+setuptools==80.10.2

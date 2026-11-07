@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>zh-Hant</string>
+		<string>en</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>LearnWell uses the camera on this Mac to check your sitting posture and to show a preview in the notch panel. Video is never saved or uploaded.</string>
+</dict>
+</plist>

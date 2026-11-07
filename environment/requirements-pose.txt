@@ -1,0 +1,8 @@
+# Separate from training: the legacy Pose API requires protobuf <5 and numpy <2.
+mediapipe==0.10.20
+protobuf==4.25.9
+numpy==1.26.4
+opencv-contrib-python==4.11.0.86
+# Keep JAX compatible with NumPy 1.x and Python 3.12.
+jax==0.4.35
+jaxlib==0.4.35

@@ -1,0 +1,25 @@
+# Exceptions for tools/check_localization.swift, one string literal per line,
+# written exactly as in the Swift source.
+
+# Brand and technical terms shown as-is in both languages.
+LearnWell
+INT4154 Project
+mAP50
+best mAP50
+mAP50-95
+cm
+
+# A language is named in itself (Localization.swift).
+繁體中文
+
+# Default class names of Classroom projects saved before the English-key change;
+# ClassroomStore still recognises them so old projects keep working.
+良好坐姿
+不良坐姿
+良好
+不良
+
+# ClassroomStore's Chinese-only branch, which has its own plural wording.
+\(count) 張
+\(count) 個框
+訓練 \(train) 張、驗證 \(validate) 張

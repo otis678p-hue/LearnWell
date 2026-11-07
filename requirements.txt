@@ -1,0 +1,2 @@
+# Training / classroom / CoreML export. Pose uses its own isolated environment.
+-r environment/requirements-training.txt

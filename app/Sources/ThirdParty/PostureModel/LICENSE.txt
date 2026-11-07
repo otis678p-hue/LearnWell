@@ -1,0 +1,32 @@
+Sitting posture model — licence notice
+=====================================
+
+The shipped weights are:
+
+    models/sitting_posture_yolo26n.pt
+    app/Sources/PostureYOLO.mlmodelc   (CoreML export of the same weights)
+
+They are a YOLO26n detector fine-tuned on a sitting-posture dataset by the
+SittingPosture project. The supplied model files are listed above.
+
+Licence: GNU Affero General Public License v3.0 (AGPL-3.0)
+----------------------------------------------------------
+YOLO26 and the pretrained checkpoints these weights were fine-tuned from are
+published by Ultralytics under AGPL-3.0, so the fine-tuned weights inherit it:
+
+  * Ultralytics licence:  https://github.com/ultralytics/ultralytics/blob/main/LICENSE
+  * Full AGPL-3.0 text:   https://www.gnu.org/licenses/agpl-3.0.txt
+
+The runtime that loads them (the `ultralytics` Python package used by
+`app/Bridge/yolo_classroom.py`) is distributed under the same licence; the installed copy
+carries its own LICENSE file in `.venv/lib/python3.12/site-packages/ultralytics/`.
+
+What this means in practice
+---------------------------
+* Using this app locally on your own machine needs no further action.
+* If you distribute the app, the exported model, or anything built from these
+  weights, the AGPL applies: pass on the licence and offer the corresponding
+  source, including the app sources and model files in this repository.
+* Commercial or closed-source distribution needs an
+  [Ultralytics Enterprise licence](https://www.ultralytics.com/license) or a
+  different, permissively licensed model.

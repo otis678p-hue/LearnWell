@@ -1,0 +1,37 @@
+{
+  "labels": {
+    "0": "Bad",
+    "1": "Good"
+  },
+  "input": {
+    "width": 640,
+    "height": 640
+  },
+  "files": [
+    {
+      "path": "models/sitting_posture_yolo26n.pt",
+      "bytes": 5487842,
+      "sha256": "ebcddb75047340d2543b53a69eb9cece781984b9fe204596a90bd38167c7e1ec"
+    },
+    {
+      "path": "app/Sources/PostureYOLO.mlmodelc/analytics/coremldata.bin",
+      "bytes": 243,
+      "sha256": "97bea71f910474a679f48426ab9f04306a066efb48d4df37f84c7c1c899514bc"
+    },
+    {
+      "path": "app/Sources/PostureYOLO.mlmodelc/coremldata.bin",
+      "bytes": 826,
+      "sha256": "ad0b46158a98de525768fb885ae75c52e7951b5e6f54dcc6888e0c1097b03a93"
+    },
+    {
+      "path": "app/Sources/PostureYOLO.mlmodelc/model.mil",
+      "bytes": 217621,
+      "sha256": "0a374d95cec36e7b4972ac4b1797f8ccd6b26f42d293721ed4792f40715f371c"
+    },
+    {
+      "path": "app/Sources/PostureYOLO.mlmodelc/weights/weight.bin",
+      "bytes": 4844000,
+      "sha256": "052c7def699b46196a0327d3c8f6995b4c90fc772f3f65ef505895f8fdd1d0bd"
+    }
+  ]
+}

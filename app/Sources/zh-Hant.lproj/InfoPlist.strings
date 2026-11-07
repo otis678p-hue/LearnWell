@@ -1,0 +1,2 @@
+/* macOS permission prompts */
+"NSCameraUsageDescription" = "用於在本機偵測坐姿，並在劉海展開面板顯示相機預覽。影片不會儲存或上傳。";

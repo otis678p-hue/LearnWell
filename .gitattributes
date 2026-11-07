@@ -1,0 +1,12 @@
+* text=auto
+*.sh text eol=lf
+*.command text eol=lf
+*.py text eol=lf
+*.swift text eol=lf
+*.ino text eol=lf
+*.pt binary
+*.bin binary
+**/*.mlmodelc/** binary
+*.icns binary
+*.jpg binary
+*.png binary

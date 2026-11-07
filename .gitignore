@@ -1,0 +1,63 @@
+# macOS and editors
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+
+# Recreate environments with scripts/setup_environment.sh
+.venv/
+.venv-pose/
+venv/
+vendor/pylibs/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.cache/
+
+# Build products and generated previews
+build/
+.build/
+dist/
+release/
+*.dmg
+*.zip
+*.log
+
+# Local data and model experiments; shipped model files remain tracked
+datasets/
+runs/
+output/
+*.mlpackage/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.mobileprovision
+
+# Personal media, documents, machine settings, and local outputs
+*.jpg
+*.jpeg
+*.heic
+*.mov
+*.mp4
+*.docx
+*.pptx
+*.pfx
+*.p8
+*.cer
+*.sqlite*
+*.db
+.envrc
+photos/
+recordings/
+private/
+local/
+training/
+history.json
+settings.local.*
