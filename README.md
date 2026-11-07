@@ -77,14 +77,28 @@ See [Arduino hardware](docs/HARDWARE.md) for wiring and manual installation.
 ## Source layout
 
 ```text
-app/          Swift app, localization, resources, Python workers, and build tools
-models/       Posture model checkpoint
-arduino/      Optional Arduino receiver firmware
-environment/  Python dependency manifests and model checksums
-scripts/      Setup, build, and verification commands
-tests/        Python worker and firmware checks
-docs/         Environment, hardware, and model reference
-licenses/     Third-party licenses and notices
+LearnWell/
+├── Install LearnWell.command          Finder launcher to build and install the app
+├── Install Arduino Firmware.command  Finder launcher to install Uno R3 firmware
+├── app/
+│   ├── Sources/                      Swift app, localization, bundled CoreML model, and notices
+│   ├── Bridge/                       Python pose and classroom model workers
+│   ├── Config/                       App metadata and version settings
+│   ├── Resources/                    App icon
+│   ├── Tests/                        Swift model and app logic tests
+│   └── tools/                        App build, model conversion, and verification tools
+├── arduino/PostureReceiver/           Optional Arduino sensor receiver firmware
+├── models/                           Posture model checkpoint
+├── environment/                      Python dependencies, lockfiles, example settings, and model checksums
+├── scripts/                          Setup, build, installers, and project checks
+├── tests/                            Python worker, firmware installer, and C++ firmware tests
+├── docs/                             Environment, hardware, and model reference
+├── licenses/                         Third-party licenses and notices
+├── requirements.txt                  Entry point for Python training dependencies
+├── CITATION.cff                      Software citation metadata
+├── .python-version                   Python version for environment setup
+├── .gitignore                        Local data, credentials, and generated file exclusions
+└── .gitattributes                    Text normalization and binary file rules
 ```
 
 ## Check the project
